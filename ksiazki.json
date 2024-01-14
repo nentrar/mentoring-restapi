@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "tytul": "W pustyni i w puszczy",
+      "autor": "Henryk Sienkiewicz",
+      "rok": 1911,
+      "kategoria": "Przygodowa",
+      "ocena": 9
+    },
+    {
+      "id": 2,
+      "tytul": "Pan Tadeusz",
+      "autor": "Adam Mickiewicz",
+      "rok": 1834,
+      "kategoria": "Epos",
+      "ocena": 8
+    },
+    {
+      "id": 3,
+      "tytul": "Ferdydurke",
+      "autor": "Witold Gombrowicz",
+      "rok": 1937,
+      "kategoria": "Absurdalna",
+      "ocena": 7
+    },
+    {
+      "id": 4,
+      "tytul": "Quo Vadis",
+      "autor": "Henryk Sienkiewicz",
+      "rok": 1896,
+      "kategoria": "Historyczna",
+      "ocena": 8
+    },
+    {
+      "id": 5,
+      "tytul": "Krzyżacy",
+      "autor": "Henryk Sienkiewicz",
+      "rok": 1900,
+      "kategoria": "Historyczna",
+      "ocena": 9
+    }
+  ]
+  
