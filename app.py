@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
 import json
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Plik do przechowywania danych o książkach
 PLIK_JSON = 'ksiazki.json'
@@ -23,6 +26,7 @@ except FileNotFoundError:
 
 # GET wszystkie książki
 @app.route('/ksiazki', methods=['GET'])
+@cross_origin()
 def pobierz_ksiazki():
     return jsonify({"ksiazki": ksiazki})
 
